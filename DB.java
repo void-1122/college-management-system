@@ -9,7 +9,7 @@ class DB {
             con = DriverManager.getConnection(
                 "jdbc:mysql://localhost:3306/college",
                 "root",
-                "password"   // change this
+                "password" 
             );
         } catch(Exception e) {
             e.printStackTrace();
