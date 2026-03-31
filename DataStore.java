@@ -9,16 +9,10 @@ public class DataStore {
     static ArrayList<Integer> answers = new ArrayList<>();
 
     static {
-        // Load quiz
         questions.add("What is Java?");
         options.add(new String[]{"Language", "Database", "OS", "Browser"});
         answers.add(0);
 
-        questions.add("Which is used for database?");
-        options.add(new String[]{"HTML", "MySQL", "CSS", "JavaScript"});
-        answers.add(1);
-
-        // Dummy resources
         resources.add(new String[]{"Java Notes", "OOP"});
         resources.add(new String[]{"DBMS Notes", "Database"});
     }
