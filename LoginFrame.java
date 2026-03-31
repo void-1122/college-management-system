@@ -39,7 +39,7 @@ public class LoginFrame extends JFrame {
             String user = username.getText();
             String pass = new String(password.getPassword());
 
-            if (user.equals("admin") && pass.equals("1234")) {
+            if (user.equals("void") && pass.equals("void1122")) {
                 new DashboardFrame();
                 dispose();
             } else {
