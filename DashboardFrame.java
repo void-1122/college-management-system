@@ -21,7 +21,7 @@ public class DashboardFrame extends JFrame {
         btnResource.setBounds(150, 180, 200, 40);
         add(btnResource);
 
-        // ✅ FIXED BUTTONS
+        
         btnQuiz.addActionListener(e -> {
             JFrame frame = new JFrame("Quiz");
             frame.setSize(400,300);
